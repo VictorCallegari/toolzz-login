@@ -16,7 +16,7 @@ export default function NavBar() {
              justify-between
              ">
 
-                <Return />
+                <Return textColor='black'/>
                 <CreateAccount />
             </div>
             
