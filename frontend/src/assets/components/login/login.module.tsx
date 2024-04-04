@@ -22,14 +22,18 @@ export default function Login() {
           <div className={styles.returnButton}>
             <Return textColor="white" />
           </div>
+          
         </div>
         <div>
-          <div>
-            <FrameLogo />
+          <div className={styles.areaLogo}>
+            <div>
+              <FrameLogo />
+            </div>
+            <div className={styles.createAccount}>
+              <CreateAccount />
           </div>
-          <div className={styles.createAccount}>
-            <CreateAccount />
-          </div>
+
+          </div>          
 
           <FrameWelcome
             h1="Boas-vindas!"
