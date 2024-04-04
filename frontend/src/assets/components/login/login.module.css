@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  max-height: 1080px;
+}
+
+.bannerContainer {
+  position: relative;
+}
+
+.returnButton {
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+}
+
+@media (min-width: 640px) {
+  .header {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .banner,
+  .createAccount,
+  .returnButton {
+    display: none;
+  }
+}
